@@ -6,3 +6,8 @@ script:
 - "./mvnw clean install -B"
 after_success:
 - bash <(curl -s https://codecov.io/bash)
+addons:
+  sonarcloud:
+    organization: supriyasanjayshinde-github
+    token:
+      secure: 4f2e5eec067a64124c5e7313c63c975c1747c8e7
