@@ -12,3 +12,7 @@ addons:
     organization: supriyasanjayshinde-github
     token:
       secure: 4f2e5eec067a64124c5e7313c63c975c1747c8e7
+deploy:
+  provider: heroku
+  api_key: 6b6c8955-509a-4d93-8c69-ca4bb423084d
+  app: myapp
